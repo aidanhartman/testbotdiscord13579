@@ -1,0 +1,27 @@
+{
+  "name": "nani",
+  "license": "MIT",
+  "description": "My first Discord bot!",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "dependencies": {
+    "@discordjs/uws": "^10.149.0",
+    "dependencies": "0.0.1",
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.io-gateway6": "^2.5.3",
+    "discord.js": "^11.5.1",
+    "ms": "^2.1.2",
+    "node-fetch": "^2.6.0",
+    "peer": "^0.2.10"
+  },
+  "repository": {
+    "type": "bot",
+    "url": "https://discordapp.com/oauth2/authorize?&client_id=646370596170629200&scope=bot&permissions=8"
+  }
+}
